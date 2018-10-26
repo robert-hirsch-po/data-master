@@ -1,0 +1,25 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Populate Table Dollars",
+      "identifier": "populate-table-dollars",
+      "script": "populate-table-dollars.js"
+    }
+  ],
+  "menu": {
+    "title": "Data Master",
+    "items": [
+      "populate-table-dollars"
+    ]
+  },
+  "version": "0.1.0",
+  "name": "data-master",
+  "identifier": "data-master",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "Robert Hirsch",
+  "authorEmail": "robert.hirsch@productops.com"
+}

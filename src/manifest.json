@@ -1,0 +1,18 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Populate Table Dollars",
+      "identifier": "populate-table-dollars",
+      "script": "./populate-table-dollars.js"
+    }
+  ],
+  "menu": {
+    "title": "Data Master",
+    "items": [
+      "populate-table-dollars"
+    ]
+  }
+}
